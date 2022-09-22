@@ -1,4 +1,4 @@
-# TrashClas
+# Trashclass
 
 ![cxbxzuyc](https://user-images.githubusercontent.com/85836377/191777052-f38d2b01-80ce-4dab-bff4-8497d88ef48b.png)
 
