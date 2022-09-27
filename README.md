@@ -2,7 +2,8 @@
 
 ![cxbxzuyc](https://user-images.githubusercontent.com/85836377/191777052-f38d2b01-80ce-4dab-bff4-8497d88ef48b.png)
 
-<h1> Motivation for this Project </h1>
+<h1> Motivation for the
+  Project </h1>
 
 Being able to sort trash according to different materials is very important for recycling. However, sorting trash is one of the toughest tasks to do. While it is easy to sort metals and non-metals, it is very difficult to sort paper, glass, plastic and cardboard.
 
