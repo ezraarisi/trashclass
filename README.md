@@ -5,10 +5,7 @@
 <h1> Motivation for the
   Project </h1>
 
-Being able to sort trash according to different materials is very important for recycling. However, sorting trash is one of the toughest tasks to do. While it is easy to sort metals and non-metals, it is very difficult to sort paper, glass, plastic and cardboard.
-
-Currently, it is done by people. It is not a good job and such people are often at danger of being exposed to harmful chemicals, medical wastes and be exposed to diseases. If instead we can use a neural network that can do the classification then we can make the process faster, safer and more accurate.
-This project attempts to use a convolutional neural network to do just that.
+Being able to sort trash according to different materials is very important for recycling.
 
 <h2>Project Structure</h2>
 
