@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Smart waste classification using AI. Our tool helps identify and sort different types of waste materials in real-time using machine learning technology." />
+    <meta name="keywords" content="waste classification, AI waste sorting, smart recycling, machine learning, waste management, trash classifier" />
+    <meta name="author" content="Ezra" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-domain.com/" />
+    <meta property="og:title" content="Smart Trash Classification | AI-Powered Waste Management" />
+    <meta property="og:description" content="Classify waste materials instantly using our AI-powered tool. Make recycling smarter and more efficient." />
+    <meta property="og:image" content="https://your-domain.com/path-to-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://your-domain.com/" />
+    <meta property="twitter:title" content="Smart Trash Classification | AI-Powered Waste Management" />
+    <meta property="twitter:description" content="Classify waste materials instantly using our AI-powered tool. Make recycling smarter and more efficient." />
+    <meta property="twitter:image" content="https://your-domain.com/path-to-image.jpg" />
+
+    <link rel="canonical" href="https://your-domain.com/" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    
+    <!-- Existing links -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Smart Trash Classification | AI-Powered Waste Management</title>
+
+    <style>
+      .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+
+      .fade-in.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+
+  <body style="background-color: #f7f5de;">
+    <nav class="navbar">
+      <a href="index.html" class="nav-brand">Trash Classifier</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="model.html">Classifier</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/img/home.jpg'); background-size: cover; background-position: center; background-color: #d7f8d9;">
+      <div class="hero-content">
+        <i class="fa fa-trash fa-5x white" aria-hidden="true"></i>
+        <h1>Smart Trash Classification</h1>
+        <p>Making waste management smarter and more efficient through AI</p>
+        <div class="cta-buttons">
+          <a href="model.html" class="button">Try It Now</a>
+        </div>
+      </div>
+    </div>
+
+    <section class="benefits fade-in" style="background-color: #d7f8d9;">
+      <div class="container">
+        <h2>What is the need for trash Classification?</h2>
+        <div class="benefits-list horizontal">
+          <div class="benefit-item">
+            <i class="fas fa-leaf fa-2x"></i>
+            <h3>Environmental Protection</h3>
+            <p>Proper waste classification reduces landfill waste, minimizes pollution, and helps protect natural ecosystems by ensuring materials are recycled or disposed of correctly.</p>
+          </div>
+          <div class="benefit-item">
+            <i class="fas fa-recycle fa-2x"></i>
+            <h3>Resource Conservation</h3>
+            <p>Effective sorting enables recycling of valuable materials, conserves natural resources, and reduces the energy needed for producing new products.</p>
+          </div>
+          <div class="benefit-item">
+            <i class="fas fa-hand-holding-usd fa-2x"></i>
+            <h3>Economic Benefits</h3>
+            <p>Proper waste classification reduces waste management costs, creates recycling industry jobs, and helps recover valuable materials that can be resold.</p>
+          </div>
+          <div class="benefit-item">
+            <i class="fas fa-heartbeat fa-2x"></i>
+            <h3>Public Health</h3>
+            <p>Correct waste sorting prevents hazardous materials from contaminating the environment and reduces health risks to communities and waste workers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- New Waste Types Section -->
+    <section class="waste-types fade-in" style="background-color: #d7f8d9;">
+      <div class="container">
+        <div class="content-grid">
+          <div class="image-col">
+            <img src="assets/img/type.jpg" alt="Different types of waste materials" />
+          </div>
+          <div class="text-col">
+            <h2>Types of Waste </h2>
+            <p>This model helps you sort your trash into these main groups:</p>
+            <ul>
+              <li><strong>Recyclables:</strong> Items like paper, cardboard boxes, plastic bottles, glass jars, and metal cans</li>
+              <li><strong>Organic Waste:</strong> Food scraps, garden waste, fruit peels, and coffee grounds</li>
+              <li><strong>Electronic Waste:</strong> Old phones, broken gadgets, cables, and batteries</li>
+              <li><strong>Hazardous Items:</strong> Cleaning products, paint cans, and chemicals that need special handling</li>
+            </ul>
+            <p>Just show your item to the camera, and we'll tell you which bin it belongs in!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- New Process Section -->
+    <section class="recycling-process fade-in" style="background-color: #d7f8d9;">
+      <div class="container">
+        <div class="content-grid">
+          <div class="text-col">
+            <h2>The Recycling Process</h2>
+            <ul>
+              <li><strong>Collection:</strong> Recyclable materials are collected from homes and businesses and transported to recycling facilities</li>
+              <li><strong>Sorting:</strong> Materials are separated by type (paper, plastic, glass, metal) using both machines and manual sorting</li>
+              <li><strong>Processing:</strong> Each material is cleaned, shredded or crushed, and processed into raw materials</li>
+              <li><strong>Manufacturing:</strong> These processed materials are used to create new products, reducing the need for virgin resources</li>
+            </ul>
+            <p>Every item you recycle goes through this journey to become something new!</p>
+          </div>
+          <div class="image-col">
+            <img src="assets/img/proc.jpg" alt="Recycling process visualization" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features fade-in" style="background-color: #d7f8d9;">
+      <div class="container">
+        <div class="feature-list horizontal">
+          <div class="webcam-info">
+            <p style="color: rgb(0, 0, 0); font-weight: bold; font-size: 24px;">Using your laptop's built-in webcam, this model leverages Google's Teachable Machine to provide real-time waste classification. Simply position your item in front of the camera, and our AI model will instantly analyze and categorize it, making waste sorting effortless and accurate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <footer class="footer" style="background-color: #f7f5de;">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Trash Classifier</h4>
+            <p>Making waste management better..</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="model.html">Classifier</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Trash Classifier. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll('.fade-in').forEach((element) => {
+        observer.observe(element);
+      });
+    </script>
+  </body>
+</html>
